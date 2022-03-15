@@ -27,8 +27,8 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private var exerciseProgress: Int = 0
     private var restTimerMaxValue: Int = 10
     private var exerciseTimerMaxValue: Int = 30
-    private var restTimerDuration: Long = 10
-    private var exerciseTimerDuration: Long = 30
+    private var restTimerDuration: Long = 1
+    private var exerciseTimerDuration: Long = 3
 
     private var exerciseList: ArrayList<ExerciseModel>? = null
     private var currentExercisePosition = -1
